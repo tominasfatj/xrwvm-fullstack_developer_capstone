@@ -28,10 +28,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'https://tominasfatj-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
+    'https://tominasfatj-8000.theiadockernext-0-labs-prod-theiak8s-4-to\
+    r01.proxy.cognitiveclass.ai'
 ]
 CSRF_TRUSTED_ORIGINS = [
-    'https://tominasfatj-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'
+    'https://tominasfatj-8000.theiadockernext-0-labs-prod\
+    -theiak8s-4-tor01.proxy.cognitiveclass.ai'
 ]
 
 REST_FRAMEWORK = {
@@ -98,7 +100,9 @@ DATABASES = {
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME':
-        'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'django.\
+        contrib.auth.password_\
+        validation.UserAttributeSimilarityValidator',
     },
     {
         'NAME':
